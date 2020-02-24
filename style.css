@@ -1,0 +1,258 @@
+body {
+    font-weight: 400, 700;
+    background-color: hsl(218, 28%, 13%);
+    font-size: 14px;
+    color: aliceblue;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#nav-bar {
+    display: flex; 
+    justify-content: flex-end;    
+    
+}
+.topman {
+    background-color:hsl(217, 28%, 15%) ;
+    display: flex;
+    /* justify-content: space-between; */
+    
+    /* height: fit-content; */
+    justify-content: center;
+}
+#imgdiv img {
+    padding: 50px;
+    height: 20px;
+}
+.nav-list {
+    display:flex;
+	margin-right: 0.5rem;
+    text-align: center;
+    list-style: none;
+   
+}
+.nav-list a {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    font-size: smaller;
+    text-decoration: none;
+    color: white;
+}
+/* end of the nav section */
+
+.section1{
+   /* display: flex;
+   flex-direction: column; */
+   align-items: center;
+}
+#getstarted {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 200px;
+}
+#getstarted img {
+    height: 200px;
+}
+button{
+    background-color: hsl(198, 60%, 50%);
+    width: 150px;
+    color: azure;
+    border-radius: 12px;
+    height: 30px;
+    border:0px;
+}
+.fourdivs {
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: center;
+    color: aliceblue;
+     /* background-color: chartreuse;  */
+    /* width: 50%; */
+}
+.fourdivs p {
+    font-size: x-small;
+}
+#parttwo {
+    margin-top: 200px;
+    /* display: flex; */
+    color: aliceblue;
+   text-align: center; 
+    
+    /* width: 70%; */
+}
+#parttwo img {
+    height: 200px;
+}
+#parttwo p {
+    font-size: x-small;
+}
+#parttwotext {
+    padding-top: 80px;
+}
+#parttwo a {
+    color: hsl(176, 68%, 64%);
+}
+.twitterdiv {
+    height: 150px;
+    width: 300px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    color: aliceblue;
+    margin-right: 20px;
+    margin-top: 20px;;
+}
+.twitterdiv img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+.twittername {
+     display: flex;
+}
+
+.twittername p {
+    padding-left: 10px;
+}
+#bigtdiv {
+    /* display: flex; */
+    
+    
+}
+#twostars {
+    background-color: hsl(217, 28%, 15%);
+    width: 40%;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#twostars textarea{
+    border-radius: 18px;
+    width: 135px;
+    margin-top: 10px;
+}
+#twostars button {
+    /* margin: 20px; */
+    /* margin-left: 10px; */
+    margin-top: 10px;
+}
+
+#badman {
+    /* margin-bottom: 20px; */
+    /* display: flex; */
+}
+
+footer {
+    /* display: flex; */
+    background-color: hsl(216, 53%, 9%);
+    height: 300px;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.footy {
+    /* margin-top: 200px; */
+    margin-top: 20px;
+}
+.footy p {
+    display: inline;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .fourdivs {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        color: aliceblue;
+         /* background-color: chartreuse;  */
+        width: 50%;
+    }
+    .topman {
+        background-color:hsl(217, 28%, 15%) ;
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+    }
+    #imgdiv img {
+        padding: 25px;
+    }
+    .nav-list a {
+    
+        padding: 2rem;
+        /* font-size: smaller;
+        text-decoration: none;
+        color: white; */
+    }
+    #getstarted img {
+        height: initial;
+    }
+    #parttwo {
+        margin-top: 200px;
+        display: flex;
+        color: aliceblue;
+        justify-content: space-between;
+        
+        width: 70%;
+    }
+    #bigtdiv {
+        display: flex;
+        
+    }
+    #parttwo img {
+        height: initial;
+    }
+    #twostars {
+        /* background-color: hsl(217, 28%, 15%); */
+        width: 40%;
+        height: 150px;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        left:-80px;
+    }
+    #badman {
+        /* margin-bottom: 20px; */
+        display: flex;
+    }
+    
+    #twostars textarea{
+        /* border-radius: 18px; */
+        width: 400px;
+        
+    }
+    #twostars button {
+        /* margin: 20px; */
+        margin-left: 10px;
+    }
+    footer {
+        display: flex;
+        /* background-color: hsl(216, 53%, 9%); */
+        height: 300px;
+        /* justify-content: center; */
+        justify-content: space-evenly;
+        padding-top: -200px;
+    
+    }
+    .footy {
+        margin-top: 100px;
+    }
+    .footy img {
+        padding: 5px;
+    }
+    
+}
